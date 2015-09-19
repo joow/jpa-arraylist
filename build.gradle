@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.hibernate:hibernate-core:4.3.11.Final'
+    compile 'org.hibernate:hibernate-entitymanager:4.3.11.Final'
+    compile 'org.eclipse.persistence:eclipselink:2.6.0'
+    testCompile 'junit:junit:4.12'
+    testRuntime 'com.h2database:h2:1.4.189'
+}
